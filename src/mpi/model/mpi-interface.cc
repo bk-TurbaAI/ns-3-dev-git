@@ -44,7 +44,7 @@ MpiInterface::GetSystemId()
     }
     else
     {
-        return 0;
+        NS_LOG_WARN("g_parallelCommunicationInterface is not initialized");
     }
 }
 
